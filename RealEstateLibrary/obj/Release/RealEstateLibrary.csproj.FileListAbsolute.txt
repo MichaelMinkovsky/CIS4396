@@ -1,0 +1,7 @@
+G:\CIS3342\CIS3342Solution\RealEstateLibrary\bin\Release\RealEstateLibrary.dll
+G:\CIS3342\CIS3342Solution\RealEstateLibrary\bin\Release\RealEstateLibrary.pdb
+G:\CIS3342\CIS3342Solution\RealEstateLibrary\bin\Release\Utilities.dll
+G:\CIS3342\CIS3342Solution\RealEstateLibrary\bin\Release\Utilities.pdb
+G:\CIS3342\CIS3342Solution\RealEstateLibrary\obj\Release\RealEstateLibrary.csprojResolveAssemblyReference.cache
+G:\CIS3342\CIS3342Solution\RealEstateLibrary\obj\Release\RealEstateLibrary.dll
+G:\CIS3342\CIS3342Solution\RealEstateLibrary\obj\Release\RealEstateLibrary.pdb

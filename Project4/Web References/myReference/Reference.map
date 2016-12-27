@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://cis-iis2.temple.edu/Spring2016/CIS3342_tue96799/Project4WS/RealtyWS.asmx?disco" filename="RealtyWS.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://cis-iis2.temple.edu/Spring2016/CIS3342_tue96799/Project4WS/RealtyWS.asmx?wsdl" filename="RealtyWS.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

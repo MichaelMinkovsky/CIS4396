@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>X:\TermProject</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/TermProject.dll">
+      <publishTime>04/24/2016 15:54:10</publishTime>
+    </File>
+    <File Include="bin/TPLibrary.dll">
+      <publishTime>04/24/2016 15:29:54</publishTime>
+    </File>
+    <File Include="bin/Utilities.dll">
+      <publishTime>04/24/2016 14:18:20</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>04/15/2016 13:25:34</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>04/09/2016 17:54:52</publishTime>
+    </File>
+    <File Include="css/custom.css">
+      <publishTime>04/18/2016 12:37:24</publishTime>
+    </File>
+    <File Include="css/HomePage.css">
+      <publishTime>04/06/2016 21:40:50</publishTime>
+    </File>
+    <File Include="css/jquery-ui.css">
+      <publishTime>04/10/2016 12:32:00</publishTime>
+    </File>
+    <File Include="css/RegistrationPage.css">
+      <publishTime>04/06/2016 22:19:36</publishTime>
+    </File>
+    <File Include="css/UserInfo.css">
+      <publishTime>04/18/2016 13:23:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/02/2016 10:38:56</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/02/2016 10:38:56</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/02/2016 10:38:56</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/02/2016 10:38:56</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/02/2016 10:38:56</publishTime>
+    </File>
+    <File Include="frmHomePage.aspx">
+      <publishTime>04/24/2016 15:57:18</publishTime>
+    </File>
+    <File Include="frmLogin.aspx">
+      <publishTime>04/10/2016 13:18:30</publishTime>
+    </File>
+    <File Include="frmProfileInfo.aspx">
+      <publishTime>04/24/2016 16:04:51</publishTime>
+    </File>
+    <File Include="frmRegistration.aspx">
+      <publishTime>04/10/2016 13:18:30</publishTime>
+    </File>
+    <File Include="frmRestorePassword.aspx">
+      <publishTime>04/10/2016 13:18:30</publishTime>
+    </File>
+    <File Include="frmUserSettings.aspx">
+      <publishTime>04/24/2016 16:01:20</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>04/02/2016 09:01:22</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>04/02/2016 09:01:22</publishTime>
+    </File>
+    <File Include="js/jquery-2.1.4.min.js">
+      <publishTime>04/02/2016 09:01:22</publishTime>
+    </File>
+    <File Include="js/jquery-ui.js">
+      <publishTime>04/10/2016 12:31:44</publishTime>
+    </File>
+    <File Include="pics/background.jpg">
+      <publishTime>04/02/2016 09:28:30</publishTime>
+    </File>
+    <File Include="pics/blank_picture.jpg">
+      <publishTime>04/09/2016 17:06:54</publishTime>
+    </File>
+    <File Include="pics/ChocolateFondue.jpg">
+      <publishTime>04/06/2016 22:18:54</publishTime>
+    </File>
+    <File Include="pics/fondue.png">
+      <publishTime>04/10/2016 14:36:50</publishTime>
+    </File>
+    <File Include="pics/GreenCheck.png">
+      <publishTime>04/03/2016 15:01:16</publishTime>
+    </File>
+    <File Include="pics/Logo.jpg">
+      <publishTime>04/06/2016 21:31:32</publishTime>
+    </File>
+    <File Include="pics/Logo.png">
+      <publishTime>04/06/2016 22:01:10</publishTime>
+    </File>
+    <File Include="pics/newsFeedReady.png">
+      <publishTime>04/16/2016 16:48:46</publishTime>
+    </File>
+    <File Include="pics/redX.png">
+      <publishTime>04/03/2016 16:27:08</publishTime>
+    </File>
+    <File Include="PictureControl.ascx">
+      <publishTime>04/15/2016 13:22:22</publishTime>
+    </File>
+    <File Include="Storage/cant touch this.jpg">
+      <publishTime>04/10/2016 13:36:18</publishTime>
+    </File>
+    <File Include="Storage/Hydrangeas.jpg">
+      <publishTime>04/12/2016 11:09:18</publishTime>
+    </File>
+    <File Include="Storage/Jellyfish.jpg">
+      <publishTime>04/12/2016 10:27:56</publishTime>
+    </File>
+    <File Include="Storage/joel/joel.jpg">
+      <publishTime>04/16/2016 19:33:54</publishTime>
+    </File>
+    <File Include="Storage/Katya.jpg">
+      <publishTime>10/31/2012 10:36:32</publishTime>
+    </File>
+    <File Include="Storage/Moisha/cant touch this.jpg">
+      <publishTime>04/10/2016 13:36:18</publishTime>
+    </File>
+    <File Include="Storage/Moisha/Hydrangeas.jpg">
+      <publishTime>04/12/2016 11:09:18</publishTime>
+    </File>
+    <File Include="Storage/Moisha/Jellyfish.jpg">
+      <publishTime>04/12/2016 10:27:56</publishTime>
+    </File>
+    <File Include="Storage/Moisha/Katya.jpg">
+      <publishTime>10/31/2012 10:36:32</publishTime>
+    </File>
+    <File Include="Storage/Moisha/Penguins.jpg">
+      <publishTime>04/12/2016 09:34:58</publishTime>
+    </File>
+    <File Include="Storage/Moisha/photos 003.jpg">
+      <publishTime>04/16/2016 19:30:40</publishTime>
+    </File>
+    <File Include="Storage/Moisha/photos 004.jpg">
+      <publishTime>04/16/2016 19:33:12</publishTime>
+    </File>
+    <File Include="Storage/Penguins.jpg">
+      <publishTime>04/12/2016 09:34:58</publishTime>
+    </File>
+    <File Include="Storage/puzzle one 001.jpg">
+      <publishTime>04/10/2016 19:14:30</publishTime>
+    </File>
+    <File Include="Storage/Thumbs.db">
+      <publishTime>04/18/2016 12:26:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/20/2016 09:56:06</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+G:\CIS3342\CIS3342Solution\Project4WS\bin\Project4WS.dll
+G:\CIS3342\CIS3342Solution\Project4WS\bin\Project4WS.pdb
+G:\CIS3342\CIS3342Solution\Project4WS\bin\RealEstateLibrary.dll
+G:\CIS3342\CIS3342Solution\Project4WS\bin\Utilities.dll
+G:\CIS3342\CIS3342Solution\Project4WS\bin\RealEstateLibrary.pdb
+G:\CIS3342\CIS3342Solution\Project4WS\bin\Utilities.pdb
+G:\CIS3342\CIS3342Solution\Project4WS\obj\Release\Project4WS.csprojResolveAssemblyReference.cache
+G:\CIS3342\CIS3342Solution\Project4WS\obj\Release\Project4WS.dll
+G:\CIS3342\CIS3342Solution\Project4WS\obj\Release\Project4WS.pdb

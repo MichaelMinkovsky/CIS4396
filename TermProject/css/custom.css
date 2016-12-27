@@ -1,0 +1,23 @@
+﻿body {
+    background-image: url("http://cis-iis2.temple.edu/Spring2016/CIS3342_tue49753/TermProject/pics/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.divLoginBackground {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.picsize {
+width: 130px;
+height: 160px;
+}

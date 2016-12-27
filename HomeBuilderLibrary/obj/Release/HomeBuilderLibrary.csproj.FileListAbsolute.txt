@@ -1,0 +1,5 @@
+G:\CIS3342\CIS3342Solution\HomeBuilderLibrary\bin\Release\HomeBuilderLibrary.dll
+G:\CIS3342\CIS3342Solution\HomeBuilderLibrary\bin\Release\HomeBuilderLibrary.pdb
+G:\CIS3342\CIS3342Solution\HomeBuilderLibrary\obj\Release\HomeBuilderLibrary.csprojResolveAssemblyReference.cache
+G:\CIS3342\CIS3342Solution\HomeBuilderLibrary\obj\Release\HomeBuilderLibrary.dll
+G:\CIS3342\CIS3342Solution\HomeBuilderLibrary\obj\Release\HomeBuilderLibrary.pdb

@@ -1,0 +1,28 @@
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TPLibrary\bin\Debug\TPLibrary.dll
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TPLibrary\bin\Debug\TPLibrary.pdb
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TPLibrary\obj\Debug\TPLibrary.dll
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TPLibrary\obj\Debug\TPLibrary.pdb
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TPLibrary\bin\Debug\TPLibrary.dll
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TPLibrary\bin\Debug\TPLibrary.pdb
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TPLibrary\bin\Debug\Utilities.dll
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TPLibrary\bin\Debug\Utilities.pdb
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TPLibrary\obj\Debug\TPLibrary.csprojResolveAssemblyReference.cache
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TPLibrary\obj\Debug\TPLibrary.dll
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TPLibrary\obj\Debug\TPLibrary.pdb
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TPLibrary\bin\Debug\Utilities.dll
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TPLibrary\bin\Debug\Utilities.pdb
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TPLibrary\obj\Debug\TPLibrary.csprojResolveAssemblyReference.cache
+G:\CIS3342\ProjectsForCIS3342\TPLibrary\bin\Debug\TPLibrary.dll
+G:\CIS3342\ProjectsForCIS3342\TPLibrary\bin\Debug\TPLibrary.pdb
+G:\CIS3342\ProjectsForCIS3342\TPLibrary\bin\Debug\Utilities.dll
+G:\CIS3342\ProjectsForCIS3342\TPLibrary\bin\Debug\Utilities.pdb
+G:\CIS3342\ProjectsForCIS3342\TPLibrary\obj\Debug\TPLibrary.csprojResolveAssemblyReference.cache
+G:\CIS3342\ProjectsForCIS3342\TPLibrary\obj\Debug\TPLibrary.dll
+G:\CIS3342\ProjectsForCIS3342\TPLibrary\obj\Debug\TPLibrary.pdb
+G:\CIS3342\CIS3342Solution\TPLibrary\bin\Debug\TPLibrary.dll
+G:\CIS3342\CIS3342Solution\TPLibrary\bin\Debug\TPLibrary.pdb
+G:\CIS3342\CIS3342Solution\TPLibrary\bin\Debug\Utilities.dll
+G:\CIS3342\CIS3342Solution\TPLibrary\bin\Debug\Utilities.pdb
+G:\CIS3342\CIS3342Solution\TPLibrary\obj\Debug\TPLibrary.csprojResolveAssemblyReference.cache
+G:\CIS3342\CIS3342Solution\TPLibrary\obj\Debug\TPLibrary.dll
+G:\CIS3342\CIS3342Solution\TPLibrary\obj\Debug\TPLibrary.pdb

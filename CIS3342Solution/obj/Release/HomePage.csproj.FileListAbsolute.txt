@@ -1,0 +1,5 @@
+G:\CIS3342\CIS3342Solution\CIS3342Solution\bin\CIS3342Solution.dll
+G:\CIS3342\CIS3342Solution\CIS3342Solution\bin\CIS3342Solution.pdb
+G:\CIS3342\CIS3342Solution\CIS3342Solution\obj\Release\CIS3342Solution.dll
+G:\CIS3342\CIS3342Solution\CIS3342Solution\obj\Release\CIS3342Solution.pdb
+G:\CIS3342\CIS3342Solution\CIS3342Solution\obj\Release\HomePage.csprojResolveAssemblyReference.cache

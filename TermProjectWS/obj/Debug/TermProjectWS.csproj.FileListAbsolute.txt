@@ -1,0 +1,36 @@
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TermProjectWS\bin\TermProjectWS.dll
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TermProjectWS\bin\TermProjectWS.pdb
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TermProjectWS\bin\TPLibrary.dll
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TermProjectWS\bin\Utilities.dll
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TermProjectWS\bin\TPLibrary.pdb
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TermProjectWS\bin\Utilities.pdb
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TermProjectWS\obj\Debug\TermProjectWS.csprojResolveAssemblyReference.cache
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TermProjectWS\obj\Debug\TermProjectWS.dll
+C:\Users\TheMoisha\Desktop\homework\c#2\Homework\all c#2 project\ProjectsForCIS3342\TermProjectWS\obj\Debug\TermProjectWS.pdb
+G:\CIS3342\ProjectsForCIS3342\TermProjectWS\bin\TermProjectWS.dll
+G:\CIS3342\ProjectsForCIS3342\TermProjectWS\bin\TermProjectWS.pdb
+G:\CIS3342\ProjectsForCIS3342\TermProjectWS\bin\TPLibrary.dll
+G:\CIS3342\ProjectsForCIS3342\TermProjectWS\bin\Utilities.dll
+G:\CIS3342\ProjectsForCIS3342\TermProjectWS\bin\TPLibrary.pdb
+G:\CIS3342\ProjectsForCIS3342\TermProjectWS\bin\Utilities.pdb
+G:\CIS3342\ProjectsForCIS3342\TermProjectWS\obj\Debug\TermProjectWS.csprojResolveAssemblyReference.cache
+G:\CIS3342\ProjectsForCIS3342\TermProjectWS\obj\Debug\TermProjectWS.dll
+G:\CIS3342\ProjectsForCIS3342\TermProjectWS\obj\Debug\TermProjectWS.pdb
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TermProjectWS\bin\TermProjectWS.dll
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TermProjectWS\bin\TermProjectWS.pdb
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TermProjectWS\bin\TPLibrary.dll
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TermProjectWS\bin\Utilities.dll
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TermProjectWS\bin\TPLibrary.pdb
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TermProjectWS\bin\Utilities.pdb
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TermProjectWS\obj\Debug\TermProjectWS.csprojResolveAssemblyReference.cache
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TermProjectWS\obj\Debug\TermProjectWS.dll
+C:\Users\TheMoisha\Desktop\ProjectsForCIS3342\TermProjectWS\obj\Debug\TermProjectWS.pdb
+G:\CIS3342\CIS3342Solution\TermProjectWS\bin\TermProjectWS.dll
+G:\CIS3342\CIS3342Solution\TermProjectWS\bin\TermProjectWS.pdb
+G:\CIS3342\CIS3342Solution\TermProjectWS\bin\TPLibrary.dll
+G:\CIS3342\CIS3342Solution\TermProjectWS\bin\Utilities.dll
+G:\CIS3342\CIS3342Solution\TermProjectWS\bin\TPLibrary.pdb
+G:\CIS3342\CIS3342Solution\TermProjectWS\bin\Utilities.pdb
+G:\CIS3342\CIS3342Solution\TermProjectWS\obj\Debug\TermProjectWS.csprojResolveAssemblyReference.cache
+G:\CIS3342\CIS3342Solution\TermProjectWS\obj\Debug\TermProjectWS.dll
+G:\CIS3342\CIS3342Solution\TermProjectWS\obj\Debug\TermProjectWS.pdb

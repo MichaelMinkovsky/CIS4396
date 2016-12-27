@@ -1,0 +1,7 @@
+G:\CIS3342\CIS3342Solution\Project4\bin\Project4.dll
+G:\CIS3342\CIS3342Solution\Project4\bin\Project4.XmlSerializers.dll
+G:\CIS3342\CIS3342Solution\Project4\bin\Project4.pdb
+G:\CIS3342\CIS3342Solution\Project4\obj\Release\Project4.dll
+G:\CIS3342\CIS3342Solution\Project4\obj\Release\Project4.pdb
+G:\CIS3342\CIS3342Solution\Project4\obj\Release\Project4.XmlSerializers.dll
+G:\CIS3342\CIS3342Solution\Project4\obj\Release\Project4.csprojResolveAssemblyReference.cache

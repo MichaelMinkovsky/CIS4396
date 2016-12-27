@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="findMatchingHomes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="findMatchingHomesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="findMatchingHomesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateHome">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="listingPrice" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="squareFootage" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="availability" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="numBedrooms" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="numBathrooms" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="homeType" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateHomeResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="addHome">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="listingPrice" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="squareFootage" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="availability" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="numBedrooms" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="numBathrooms" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="homeType" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addHomeResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="deleteHome">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteHomeResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="findHomeByCityStateBudget">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="budget" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="realtorID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="findHomeByCityStateBudgetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="findHomeByCityStateBudgetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="findHomeByBudgetSizeType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="budget" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="size" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="homeType" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="realtorID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="findHomeByBudgetSizeTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="findHomeByBudgetSizeTypeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="requestPersonName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="date" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="time" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="houseID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="realtorID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addRequestResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="displayAppointments">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="displayAppointmentsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="displayAppointmentsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="findMatchingHomesSoapIn">
+    <wsdl:part name="parameters" element="tns:findMatchingHomes" />
+  </wsdl:message>
+  <wsdl:message name="findMatchingHomesSoapOut">
+    <wsdl:part name="parameters" element="tns:findMatchingHomesResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateHomeSoapIn">
+    <wsdl:part name="parameters" element="tns:updateHome" />
+  </wsdl:message>
+  <wsdl:message name="updateHomeSoapOut">
+    <wsdl:part name="parameters" element="tns:updateHomeResponse" />
+  </wsdl:message>
+  <wsdl:message name="addHomeSoapIn">
+    <wsdl:part name="parameters" element="tns:addHome" />
+  </wsdl:message>
+  <wsdl:message name="addHomeSoapOut">
+    <wsdl:part name="parameters" element="tns:addHomeResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteHomeSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteHome" />
+  </wsdl:message>
+  <wsdl:message name="deleteHomeSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteHomeResponse" />
+  </wsdl:message>
+  <wsdl:message name="findHomeByCityStateBudgetSoapIn">
+    <wsdl:part name="parameters" element="tns:findHomeByCityStateBudget" />
+  </wsdl:message>
+  <wsdl:message name="findHomeByCityStateBudgetSoapOut">
+    <wsdl:part name="parameters" element="tns:findHomeByCityStateBudgetResponse" />
+  </wsdl:message>
+  <wsdl:message name="findHomeByBudgetSizeTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:findHomeByBudgetSizeType" />
+  </wsdl:message>
+  <wsdl:message name="findHomeByBudgetSizeTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:findHomeByBudgetSizeTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="addRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:addRequest" />
+  </wsdl:message>
+  <wsdl:message name="addRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:addRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="displayAppointmentsSoapIn">
+    <wsdl:part name="parameters" element="tns:displayAppointments" />
+  </wsdl:message>
+  <wsdl:message name="displayAppointmentsSoapOut">
+    <wsdl:part name="parameters" element="tns:displayAppointmentsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RealtyWSSoap">
+    <wsdl:operation name="findMatchingHomes">
+      <wsdl:input message="tns:findMatchingHomesSoapIn" />
+      <wsdl:output message="tns:findMatchingHomesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateHome">
+      <wsdl:input message="tns:updateHomeSoapIn" />
+      <wsdl:output message="tns:updateHomeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addHome">
+      <wsdl:input message="tns:addHomeSoapIn" />
+      <wsdl:output message="tns:addHomeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteHome">
+      <wsdl:input message="tns:deleteHomeSoapIn" />
+      <wsdl:output message="tns:deleteHomeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="findHomeByCityStateBudget">
+      <wsdl:input message="tns:findHomeByCityStateBudgetSoapIn" />
+      <wsdl:output message="tns:findHomeByCityStateBudgetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="findHomeByBudgetSizeType">
+      <wsdl:input message="tns:findHomeByBudgetSizeTypeSoapIn" />
+      <wsdl:output message="tns:findHomeByBudgetSizeTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addRequest">
+      <wsdl:input message="tns:addRequestSoapIn" />
+      <wsdl:output message="tns:addRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="displayAppointments">
+      <wsdl:input message="tns:displayAppointmentsSoapIn" />
+      <wsdl:output message="tns:displayAppointmentsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RealtyWSSoap" type="tns:RealtyWSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="findMatchingHomes">
+      <soap:operation soapAction="http://tempuri.org/findMatchingHomes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateHome">
+      <soap:operation soapAction="http://tempuri.org/updateHome" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addHome">
+      <soap:operation soapAction="http://tempuri.org/addHome" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteHome">
+      <soap:operation soapAction="http://tempuri.org/deleteHome" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findHomeByCityStateBudget">
+      <soap:operation soapAction="http://tempuri.org/findHomeByCityStateBudget" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findHomeByBudgetSizeType">
+      <soap:operation soapAction="http://tempuri.org/findHomeByBudgetSizeType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addRequest">
+      <soap:operation soapAction="http://tempuri.org/addRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="displayAppointments">
+      <soap:operation soapAction="http://tempuri.org/displayAppointments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RealtyWSSoap12" type="tns:RealtyWSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="findMatchingHomes">
+      <soap12:operation soapAction="http://tempuri.org/findMatchingHomes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateHome">
+      <soap12:operation soapAction="http://tempuri.org/updateHome" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addHome">
+      <soap12:operation soapAction="http://tempuri.org/addHome" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteHome">
+      <soap12:operation soapAction="http://tempuri.org/deleteHome" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findHomeByCityStateBudget">
+      <soap12:operation soapAction="http://tempuri.org/findHomeByCityStateBudget" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findHomeByBudgetSizeType">
+      <soap12:operation soapAction="http://tempuri.org/findHomeByBudgetSizeType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addRequest">
+      <soap12:operation soapAction="http://tempuri.org/addRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="displayAppointments">
+      <soap12:operation soapAction="http://tempuri.org/displayAppointments" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RealtyWS">
+    <wsdl:port name="RealtyWSSoap" binding="tns:RealtyWSSoap">
+      <soap:address location="http://cis-iis2.temple.edu/Spring2016/CIS3342_tue96799/Project4WS/RealtyWS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RealtyWSSoap12" binding="tns:RealtyWSSoap12">
+      <soap12:address location="http://cis-iis2.temple.edu/Spring2016/CIS3342_tue96799/Project4WS/RealtyWS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

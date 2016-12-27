@@ -1,0 +1,18 @@
+G:\CIS3342\CIS3342Solution\Project4WS\bin\Project4WS.dll
+G:\CIS3342\CIS3342Solution\Project4WS\bin\Project4WS.pdb
+G:\CIS3342\CIS3342Solution\Project4WS\obj\Debug\Project4WS.dll
+G:\CIS3342\CIS3342Solution\Project4WS\obj\Debug\Project4WS.pdb
+C:\Users\Joel Manatharayil\Desktop\CIS 3342\CIS3342Solution\Project4WS\obj\Debug\Project4WS.csprojResolveAssemblyReference.cache
+C:\Users\Joel Manatharayil\Desktop\CIS 3342\CIS3342Solution\Project4WS\obj\Debug\Project4WS.dll
+C:\Users\Joel Manatharayil\Desktop\CIS 3342\CIS3342Solution\Project4WS\bin\Project4WS.dll
+C:\Users\Joel Manatharayil\Desktop\CIS 3342\CIS3342Solution\Project4WS\bin\Project4WS.pdb
+C:\Users\Joel Manatharayil\Desktop\CIS 3342\CIS3342Solution\Project4WS\bin\RealEstateLibrary.dll
+C:\Users\Joel Manatharayil\Desktop\CIS 3342\CIS3342Solution\Project4WS\bin\Utilities.dll
+C:\Users\Joel Manatharayil\Desktop\CIS 3342\CIS3342Solution\Project4WS\bin\RealEstateLibrary.pdb
+C:\Users\Joel Manatharayil\Desktop\CIS 3342\CIS3342Solution\Project4WS\bin\Utilities.pdb
+C:\Users\Joel Manatharayil\Desktop\CIS 3342\CIS3342Solution\Project4WS\obj\Debug\Project4WS.pdb
+G:\CIS3342\CIS3342Solution\Project4WS\bin\RealEstateLibrary.dll
+G:\CIS3342\CIS3342Solution\Project4WS\bin\Utilities.dll
+G:\CIS3342\CIS3342Solution\Project4WS\bin\RealEstateLibrary.pdb
+G:\CIS3342\CIS3342Solution\Project4WS\bin\Utilities.pdb
+G:\CIS3342\CIS3342Solution\Project4WS\obj\Debug\Project4WS.csprojResolveAssemblyReference.cache

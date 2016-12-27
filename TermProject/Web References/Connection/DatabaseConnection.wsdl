@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ReturnUsers">
+        <s:complexType />
+      </s:element>
+      <s:element name="ReturnUsersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReturnUsersResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReturnSecurityQuestion">
+        <s:complexType />
+      </s:element>
+      <s:element name="ReturnSecurityQuestionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReturnSecurityQuestionResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReturnStateNames">
+        <s:complexType />
+      </s:element>
+      <s:element name="ReturnStateNamesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReturnStateNamesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertToUserDataTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Lname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="question1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="answer1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="question2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="answer2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="question3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="answer3" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertToUserDataTableResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="InsertUserPreferences">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="font" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FontColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="background" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUserPreferencesResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ReturnUsersSoapIn">
+    <wsdl:part name="parameters" element="tns:ReturnUsers" />
+  </wsdl:message>
+  <wsdl:message name="ReturnUsersSoapOut">
+    <wsdl:part name="parameters" element="tns:ReturnUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReturnSecurityQuestionSoapIn">
+    <wsdl:part name="parameters" element="tns:ReturnSecurityQuestion" />
+  </wsdl:message>
+  <wsdl:message name="ReturnSecurityQuestionSoapOut">
+    <wsdl:part name="parameters" element="tns:ReturnSecurityQuestionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReturnStateNamesSoapIn">
+    <wsdl:part name="parameters" element="tns:ReturnStateNames" />
+  </wsdl:message>
+  <wsdl:message name="ReturnStateNamesSoapOut">
+    <wsdl:part name="parameters" element="tns:ReturnStateNamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertToUserDataTableSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertToUserDataTable" />
+  </wsdl:message>
+  <wsdl:message name="InsertToUserDataTableSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertToUserDataTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertUserPreferencesSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertUserPreferences" />
+  </wsdl:message>
+  <wsdl:message name="InsertUserPreferencesSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertUserPreferencesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DatabaseConnectionSoap">
+    <wsdl:operation name="ReturnUsers">
+      <wsdl:input message="tns:ReturnUsersSoapIn" />
+      <wsdl:output message="tns:ReturnUsersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReturnSecurityQuestion">
+      <wsdl:input message="tns:ReturnSecurityQuestionSoapIn" />
+      <wsdl:output message="tns:ReturnSecurityQuestionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReturnStateNames">
+      <wsdl:input message="tns:ReturnStateNamesSoapIn" />
+      <wsdl:output message="tns:ReturnStateNamesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertToUserDataTable">
+      <wsdl:input message="tns:InsertToUserDataTableSoapIn" />
+      <wsdl:output message="tns:InsertToUserDataTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserPreferences">
+      <wsdl:input message="tns:InsertUserPreferencesSoapIn" />
+      <wsdl:output message="tns:InsertUserPreferencesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DatabaseConnectionSoap" type="tns:DatabaseConnectionSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ReturnUsers">
+      <soap:operation soapAction="http://tempuri.org/ReturnUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnSecurityQuestion">
+      <soap:operation soapAction="http://tempuri.org/ReturnSecurityQuestion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnStateNames">
+      <soap:operation soapAction="http://tempuri.org/ReturnStateNames" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertToUserDataTable">
+      <soap:operation soapAction="http://tempuri.org/InsertToUserDataTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserPreferences">
+      <soap:operation soapAction="http://tempuri.org/InsertUserPreferences" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DatabaseConnectionSoap12" type="tns:DatabaseConnectionSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ReturnUsers">
+      <soap12:operation soapAction="http://tempuri.org/ReturnUsers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnSecurityQuestion">
+      <soap12:operation soapAction="http://tempuri.org/ReturnSecurityQuestion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnStateNames">
+      <soap12:operation soapAction="http://tempuri.org/ReturnStateNames" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertToUserDataTable">
+      <soap12:operation soapAction="http://tempuri.org/InsertToUserDataTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserPreferences">
+      <soap12:operation soapAction="http://tempuri.org/InsertUserPreferences" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DatabaseConnection">
+    <wsdl:port name="DatabaseConnectionSoap" binding="tns:DatabaseConnectionSoap">
+      <soap:address location="http://localhost:5878/DatabaseConnection.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DatabaseConnectionSoap12" binding="tns:DatabaseConnectionSoap12">
+      <soap12:address location="http://localhost:5878/DatabaseConnection.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
